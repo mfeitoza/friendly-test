@@ -22,7 +22,7 @@ export interface WorkdOrderDto {
   priority: Priority;
 }
 
-class AssignedTo {
+export class AssignedTo {
   name: string;
   status: AssignStatus;
 
