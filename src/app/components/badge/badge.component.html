@@ -1,0 +1,21 @@
+<span
+  [ngClass]="{
+    'bg-primary': color === 'primary',
+    'bg-secondary': color === 'secondary',
+    'bg-success': color === 'success',
+    'bg-danger': color === 'danger',
+    'bg-warning': color === 'warning'
+  }"
+  class="text-white"
+>
+  <ng-content></ng-content>
+</span>
+
+<style>
+  span {
+    padding: 0.2rem 0.8rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+</style>
