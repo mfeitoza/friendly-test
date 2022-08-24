@@ -15,7 +15,6 @@
         <th scope="col">Priority</th>
       </tr>
     </thead>
-    <ng-template *ngIf=""></ng-template>
     <tbody>
       <tr *ngFor="let order of filteredOrders$ | async; index as i">
         <th>{{ order.id }}</th>
